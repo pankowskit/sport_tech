@@ -6,36 +6,93 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-        <title>Coming soon</title>
+        <title>Sport Tech | Home</title>
     </head>
     <body>
-        <header class="fixed-top w-100">
+        <header class="position-absolute w-100">
             <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
                 <a href="index.html" class="navbar-brand">
                     <img class="img-fluid" src="img/logo.png" alt="page logo"/>
                 </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainnav">
+                    <ul class="navbar-nav text-end">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>                 
             </nav>
         </header>
-        <section class="comingsoon-s1 minh-100vh container-fluid bg-dark d-flex align-items-center py-5">
-            <div class="row w-100 m-0 mt-5">
-                <div class="col-12 col-sm-10 col-md-7 col-lg-6 col-xl-5 mx-auto text-center text-white">
-                    <h1 class="display-6">
-                        Coming soon
-                    </h1>
-                    <p class="lead">
-                        We are not ready yet, but starting soon. Please visit us again
-                        in a while.
-                    </p>
+        <section class="index-s1 container-fluid d-flex minh-100vh bg-dark align-items-center py-5">
+            <div class="row mx-0 w-100">
+                <div class="col-12 col-md-7 minh-25vh order-1 order-md-2"></div>
+                <div class="col-12 col-md-5 minh-50vh order-2 order-md-1 d-flex align-items-center">
+                    <div class="w-100 text-center text-md-start">
+                        <h5 class="text-white">
+                            Sed ut perspiciatis
+                        </h5>
+                        <h2 class="dispaly-6 fw-bold text-secondary text-shadow">
+                            Unde omnis iste
+                        </h2>
+                        <p class="text-white">
+                            Natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                            et quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+                            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
+                            fugit, sed quia consequuntur magni dolores eos qui ratione 
+                            voluptatem sequi nesciunt. Neque porro quisquam est
+                        </p>
+                    </div>
                 </div>
             </div>
-        </section>
-        <footer class="container-fluid fixed-bottom d-flex align-items-center">
-            <div class="row w-100">
-                <div class="col-12 text-center">
-                    <p class="text-white small">
-                        Copyright &copy;2022 Tomasz Pankowski. 
-                        <a href="privacy.html" class="text-decoration-none text-white">
-                            Privacy&nbsp;policy
+        </section>   
+        <footer class="container-fluid d-flex text-dark align-items-center bg-dark text-white pt-3 opacity-9 border-top">
+            <div class="row mx-0 w-100 small opacity-9">
+                <div class="col-12 col-md-6 col-lg-5 text-center text-md-start">
+                    <img src="img/navbar_logo.png" class="img-fluid" alt="logo"/>
+                    <p class="initialism fw-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-7 text-center text-md-end">                    
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-facebook text-white"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-instagram text-white"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa fa-twitter text-white"></span>
+                            </a>
+                        </li>
+                    </ul>       
+                </div>
+                <div class="col-12 text-center border-top">
+                    <p class="mb-1">
+                        Copyright &copy; 2022 Tomasz Pankowski. 
+                        <a href="privacy.html" class="fw-bold text-white text-decoration-none">
+                            Privacy policy
                         </a>
                     </p>
                 </div>
